@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" href="src/images/FY.png">
+  <link rel="stylesheet" href="src/style.css">
+
+  <title>FYTEX ETIQUETAS</title>
+</head>
+<body class="wrapper">
+  <form>
+    <h1>FYTEX COTAÇÃO</h1>
+    <label>
+      ALTURA (mm)
+      <input onchange="calcular()" id="altura" type="number" min="1" value="1">
+    </label>
+    <label>
+      LARGURA (mm)
+      <input onchange="calcular()" id="largura" type="number" min="1" value="1">
+    </label>
+    <label class="destaque">
+      CUSTO UNITÁRIO
+      <p id="total">RS 0,00</p>
+    </label>
+  </form>
+</body>
+<script src="src/script.js"></script>
+</html>
